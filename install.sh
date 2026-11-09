@@ -49,4 +49,4 @@ cat > "$AGENT" <<PLIST
 PLIST
 launchctl bootstrap "gui/$(id -u)" "$AGENT"
 
-echo "Mirror is running. Press Command Shift S."
+echo "Mirror is running. Press Command ~."

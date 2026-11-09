@@ -3,9 +3,9 @@ import AVFoundation
 import Carbon.HIToolbox
 import UniformTypeIdentifiers
 
-// Command Shift S shows or hides the camera.
-let shortcutKey = UInt32(kVK_ANSI_S)
-let shortcutModifiers = UInt32(cmdKey | shiftKey)
+// Command ~ (the key left of 1) shows or hides the camera.
+let shortcutKey = UInt32(kVK_ANSI_Grave)
+let shortcutModifiers = UInt32(cmdKey)
 
 // The camera grows out of the notch, where the real camera is, and folds back into it.
 // The camera needs about 430 ms to deliver its first picture, so the motion starts at once

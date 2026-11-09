@@ -2,7 +2,7 @@
 
 # Mirror
 
-Press Command Shift S to see yourself on your MacBook screen. Press it again to close.
+Press Command ~ (the key left of 1) to see yourself on your MacBook screen. Press it again to close.
 
 The camera grows out of the notch and folds back into it. Mirror always opens on the MacBook's own screen, never on an external monitor, and the camera runs only while Mirror is open.
 
@@ -16,7 +16,7 @@ cd mirror
 ./install.sh
 ```
 
-The first time you press Command Shift S, macOS asks for camera access.
+The first time you press Command ~, macOS asks for camera access.
 
 Mirror starts at login and shows no icon in the menu bar or the Dock. To open it with a click as well, drag Mirror from Applications to your Dock.
 
@@ -24,10 +24,10 @@ Mirror starts at login and shows no icon in the menu bar or the Dock. To open it
 
 | Keys | Action |
 | --- | --- |
-| Command Shift S | Open or close |
+| Command ~ | Open or close |
 | Command W or Escape | Close |
 
-Command Shift S is Save As in many apps. While Mirror runs, those apps no longer receive it. To use another key, change `shortcutKey` at the top of `Sources/main.swift` and run `./install.sh` again.
+Command ~ is the macOS shortcut that moves between an app's windows. While Mirror runs, it opens Mirror instead. To use another key, change `shortcutKey` at the top of `Sources/main.swift` and run `./install.sh` again.
 
 ## How it works
 
